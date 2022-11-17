@@ -7,7 +7,7 @@ router.get('/logo', (req, res) => {
 router.get('/buttonIcon', (req, res) => {
     res.sendFile(path.join(__dirname, '../../views/assets/shuffle 2.png'));
 });
-router.get('/test', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../views/assets/Poster.png'));
+router.get('/favicon', (req, res) => {
+    res.sendFile(path.join(__dirname, '../../views/assets/favicon.ico'));
 });
 module.exports = router;

@@ -7,6 +7,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const imageRoutes = require('./src/routes/imageRoutes.js')
+const scriptRoutes = require('./src/routes/scriptRoutes.js');
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const get = require('./views/scripts/script');
 app.set('view engine', 'ejs');
@@ -27,6 +28,7 @@ app.get('/movie', async (req, res) => {
   //res.send(selectedMovie)
   res.status(200).send({ selectedMovie });
 })
+app.use('/scripts', scriptRoutes)
 app.use('/images', imageRoutes);
 app.listen(8080, () => {
   console.log('Listen on port 8080');

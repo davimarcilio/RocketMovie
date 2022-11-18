@@ -1,7 +1,5 @@
 const express = require('express');
-const path = require('path');
+const scriptController = require('../controllers/scriptController');
 const router = express.Router();
-router.get('/scriptIndex', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../views/scripts/script.js'));
-})
+router.get('/scriptIndex', scriptController.indexScript)
 module.exports = router;

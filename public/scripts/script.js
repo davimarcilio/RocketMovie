@@ -1,4 +1,3 @@
-//require('dotenv').config()
 //Principal function
 async function getMovie() {
   const movie = await fetchMovieApi();

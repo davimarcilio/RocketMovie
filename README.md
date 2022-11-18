@@ -6,26 +6,8 @@
 </p>
 <hr>
 <h2>🛠 Tecnologias utilizadas</h2>
-<br>
-<div style="background-color: rgb(255, 255, 255);border-radius:10px ; padding: 10px; display: flex;
-    justify-content: space-evenly;">
-    <a href="https://expressjs.com">
-        <div>
-            <img id="ex" style="width: 2rem;"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express" />
-            <label style="color: black;" for="ex">Express</label>
-        </div>
-    </a>
-    <a href="https://nodejs.org/en/">
-        <div>
-            <img id="node" style="width: 2rem;"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="node" />
-            <label style="color: black;" for="node">NodeJs</label>
-        </div>
-    </a>
-
-</div>
-<br>
+<h3>🎡 Back-End com  <a href="https://nodejs.org/en/">NodeJS</a></h3>
+<h3>🪁 Métodos HTTP com  <a href="https://expressjs.com">Express</a></h3>
 <h3>🔐 Variáveis ambiente com <a href="https://www.npmjs.com/package/dotenv">DotEnv</a></h3>
 <h3>⏱ Atualização do servidor em tempo real com <a href="https://www.npmjs.com/package/nodemon">Nodemon</a></h3>
 <h3>🧰 Estilização do Front-end feita com o <a href="https://getbootstrap.com">Bootstrap</a></h3>

@@ -15,7 +15,8 @@ async function fetchMovieApi() {
 }
 //Show movie in index.html
 function showMovie(selectedMovie) {
-  const movie = document.getElementById('movie')
+  const movie = document.getElementById('movie');
+  loadingImage(true);
   movie.innerHTML = '';
   movie.innerHTML = `<img width="300" id="movieImg" class="img-thumbnail" src="${selectedMovie.poster_path.indexOf('/') != 0 ? selectedMovie.poster_path : 'https://image.tmdb.org/t/p/w500/' + selectedMovie.poster_path}" alt="${selectedMovie.title}">
       <div class="d-flex flex-column justify-content-center">
@@ -26,6 +27,18 @@ function showMovie(selectedMovie) {
           ${selectedMovie.overview}
         </p>
       </div>`;
+  const movieImg = document.getElementById('movieImg');
+  movieImg.onload = () => {
+    loadingImage(false);
+  }
 }
 
+function loadingImage(timesqre) {
+  const spinnerLoading = document.getElementById('loadingMovie');
+  if (timesqre) {
 
+    return spinnerLoading.style.display = 'flex';
+  }
+  return spinnerLoading.style.display = 'none';
+
+}

@@ -25,6 +25,11 @@
     font-size: 12;
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-button);
+    transition: all .2s;
+}
+
+.button:hover {
+    background-color: #c7c5c3;
 }
 
 .description,
@@ -41,4 +46,20 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+#loadingMovie {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #102d72f8;
+}
+
+#spinnerLoading {
+    width: 6rem;
+    height: 6rem;
 }

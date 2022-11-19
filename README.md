@@ -1,26 +1,26 @@
 <h1>🎥 RocketMovie</h1>
-<p>Neste Website eu consumi a api <a href="https://www.themoviedb.org">The Movie Database</a> para desenvolver um botão
+<p>Neste Website eu consumi a api <a href="https://www.themoviedb.org" target="_blank">The Movie Database</a> para desenvolver um botão
     que quando é clicado pelo usuário ele traz o nome, descrição e poster de um filme popular aleatório, fui um desafio
     fazer este website utilizando
-    <b>fetch</b> do <a href="https://nodejs.org/en/"><b>NodeJs</b></a>.
+    <b>fetch</b> do <a href="https://nodejs.org/en/" target="_blank"><b>NodeJs</b></a>.
 </p>
 <hr>
 <h2>🛠 Tecnologias utilizadas</h2>
-<h3>🎡 Back-End com  <a href="https://nodejs.org/en/">NodeJS</a></h3>
-<h3>🪁 Métodos HTTP com  <a href="https://expressjs.com">Express</a></h3>
-<h3>🔐 Variáveis ambiente com <a href="https://www.npmjs.com/package/dotenv">DotEnv</a></h3>
-<h3>⏱ Atualização do servidor em tempo real com <a href="https://www.npmjs.com/package/nodemon">Nodemon</a></h3>
-<h3>🧰 Estilização do Front-end feita com o <a href="https://getbootstrap.com">Bootstrap</a></h3>
+<h3>🎡 Back-End com  <a href="https://nodejs.org/en/" target="_blank">NodeJS</a></h3>
+<h3>🪁 Métodos HTTP com  <a href="https://expressjs.com" target="_blank">Express</a></h3>
+<h3>🔐 Variáveis ambiente com <a href="https://www.npmjs.com/package/dotenv" target="_blank">DotEnv</a></h3>
+<h3>⏱ Atualização do servidor em tempo real com <a href="https://www.npmjs.com/package/nodemon" target="_blank">Nodemon</a></h3>
+<h3>🧰 Estilização do Front-end feita com o <a href="https://getbootstrap.com" target="_blank">Bootstrap</a></h3>
 <hr>
 <h2>🧩 Além do desafio</h2>
 <p>Eu fui além do desafio neste projeto, levei em pratica o meu conhecimento máximo em clean code e boas práticas para
     trabalho em equipe.</p>
 <hr>
 <h2>🖋 Design</h2>
-<p>O design do Front-end foi feito pela equipe da <a href="https://www.rocketseat.com.br">RocketSeat</a> que dão
+<p>O design do Front-end foi feito pela equipe da <a href="https://www.rocketseat.com.br" target="_blank">RocketSeat</a> que dão
     desafios incríveis para seus alunos, o design
     utilizado foi feito no <a
-        href="https://www.figma.com/file/9HFoO4wNB150gRSV4v0Qse/DD-%2F-Rocketflix/duplicate">Figma</a>.</p>
+        href="https://www.figma.com/file/9HFoO4wNB150gRSV4v0Qse/DD-%2F-Rocketflix/duplicate" target="_blank">Figma</a>.</p>
 <div style="max-width: 600px; margin: auto;">
 
 ![gifFigma](https://user-images.githubusercontent.com/104699555/202767436-9be061f0-c259-4ac5-bcf2-ee01cd0785ae.gif)
@@ -45,13 +45,13 @@
 <hr>
 <h2>🔧 Teste na sua máquina</h2>
 <h4>1 - Você deve instalar os programas necessários para utilizar a api</h4>
-<p>Entre no site do <a href="https://code.visualstudio.com">Visual Studio Code</a> baixe e faça a instalação</p>
-<p>Baixe e instale a versão LTS do <a href="https://nodejs.org/en/">NodeJs</a></p>
+<p>Entre no site do <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a> baixe e faça a instalação</p>
+<p>Baixe e instale a versão LTS do <a href="https://nodejs.org/en/" target="_blank">NodeJs</a></p>
 <hr>
-<h4>2 - Pegue a chave da API do <a href="https://www.themoviedb.org">The Movie Database</a> para pegar a chave siga os
+<h4>2 - Pegue a chave da API do <a href="https://www.themoviedb.org" target="_blank">The Movie Database</a> para pegar a chave siga os
     passos abaixo</h4>
-<p>A - Crie uma conta no <a href=" https://www.themoviedb.org/signup">The Movie Database</a></p>
-<p>B - Após verificar o e-mail, faça o login e <a href="https://www.themoviedb.org/settings/api/request">acesse este
+<p>A - Crie uma conta no <a href=" https://www.themoviedb.org/signup" target="_blank">The Movie Database</a></p>
+<p>B - Após verificar o e-mail, faça o login e <a href="https://www.themoviedb.org/settings/api/request" target="_blank">acesse este
         link</a></p>
 <p>C - Clique em Criar e escolha a opção Developer</p>
 <div style="max-width: 800px; margin: auto;">
@@ -78,4 +78,4 @@
 <h4>4 - Ainda com o terminal aberto, após a instalação de todos os recursos necessários, digite o comando <b>npm
         start</b></h4>
 <h4>Tudo pronto agora é só você abrir seu navegador e colar o link <a
-        href="http://localhost:3000/">http://localhost:3000/</a> e se divertir!</h4>
+        href="http://localhost:3000/" target="_blank">http://localhost:3000/</a> e se divertir!</h4>

@@ -5,7 +5,7 @@ async function getMovie() {
 }
 async function fetchMovieApi() {
   try {
-    const response = await fetch('http://localhost:8080/api/movie');
+    const response = await fetch('http://localhost:3000/api/movie');
     const responseText = await response.text();
     return JSON.parse(responseText).movie;
   } catch (error) {

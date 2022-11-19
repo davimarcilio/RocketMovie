@@ -20,7 +20,7 @@ async function fetchMovieApi() {
     return {
         title: 'Ops, hoje não é dia de assistir filme.<br> Bora codar! 🚀',
         overview: '',
-        poster_path: 'http://localhost:8080/images/errorPoster',
+        poster_path: 'http://localhost:3000/images/errorPoster',
     }
 
 
